@@ -1,6 +1,6 @@
 # adobe-cep-template
 
-A minimal template for creating new CEP Extensions
+A templating engine to create new CEP Extensions
 for Adobe's Creative Cloud Suite of applications
 
 ## Installation
@@ -13,22 +13,21 @@ npm run build
 ## Usage
 
 Create a new extension, using settings from config.js
+
 `npm run new`
 
-### Creating an extension project
+to create a new extension with an interactive prompt:
 
-npm install -g adobe-cep-template
-adobe-cep-template -new
-
-Follow the prompts to create an extension directory in the current folder
+`npm run prompt`
 
 ### Building your extension
 
 First you need the latest version of the following from Adobe:
 
 -   [ZXPSignCmd.exe](https://github.com/Adobe-CEP/CEP-Resources/tree/master/ZXPSignCMD/4.0.7)
+-   [ExManCmd.exe](https://technologypartners.adobe.com/home/support/exman-com-line-tool.html)
 
-This will need to be globally visible by your system (i.e. [Path environment variables](https://gist.github.com/jesperorb/836cb398e4bb8dc149902d68d3711295))
+These will need to be globally visible by your system (i.e. via [Path environment variables](https://gist.github.com/jesperorb/836cb398e4bb8dc149902d68d3711295))
 
 In the root of your extension project directory, run
 
