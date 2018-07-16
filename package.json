@@ -1,0 +1,23 @@
+{
+    "name": "AfterEffectsScripts",
+    "version": "0.0.0",
+    "description": "My Scripts for Adobe AE CC",
+    "main": "",
+    "dependencies": {
+        "glob": "^7.1.2",
+        "prompt": "^1.0.0",
+        "types-for-adobe": "github:pravdomil/types-for-adobe",
+        "write": "^1.0.3"
+    },
+    "devDependencies": {
+        "@types/node": "^9.6.5",
+        "typescript": "^2.8.1"
+    },
+    "scripts": {
+        "new": "node ./src/initializeCEPProject.js",
+        "build": "npm install; $(npm bin)/tsc",
+        "prompt": "node ./src/initializeCEPProject.js --prompt"
+    },
+    "author": "James McNulty",
+    "license": "BSD-2-Clause"
+}

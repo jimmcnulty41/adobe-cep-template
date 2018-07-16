@@ -1,0 +1,20 @@
+{
+    "name": "adobe-extension-dev-tools",
+    "version": "1.0.0",
+    "description": "Dev tools for developing extensions for adobe creative cloud products",
+    "main": "index.js",
+    "scripts": {
+        "build": "node zxp_wrapper.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "adobe",
+        "extension"
+    ],
+    "author": "James McNulty",
+    "license": "MIT",
+    "dependencies": {
+        "types-for-adobe": "0.0.1",
+        "typescript": "^2.9.2"
+    }
+}
