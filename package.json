@@ -15,7 +15,7 @@
     },
     "scripts": {
         "new": "node ./src/initializeCEPProject.js",
-        "build": "npm install; $(npm bin)/tsc",
+        "build": "tsc",
         "prompt": "node ./src/initializeCEPProject.js --prompt"
     },
     "author": "James McNulty",
