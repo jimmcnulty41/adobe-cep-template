@@ -3,17 +3,22 @@
 A minimal template for creating new CEP Extensions
 for Adobe's Creative Cloud Suite of applications
 
+## Installation
+
+```
+npm install
+npm run build
+```
+
 ## Usage
 
-Create a new extension, using settings from config.ts
+Create a new extension, using settings from config.js
 `npm run new`
 
 ### Creating an extension project
 
-```
 npm install -g adobe-cep-template
 adobe-cep-template -new
-```
 
 Follow the prompts to create an extension directory in the current folder
 
