@@ -4,7 +4,8 @@
     "description": "Dev tools for developing extensions for adobe creative cloud products",
     "main": "index.js",
     "scripts": {
-        "build": "node zxp_wrapper.js",
+        "build": "tsc",
+        "deploy": "node zxp_wrapper.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [

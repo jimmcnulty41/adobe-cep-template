@@ -2,11 +2,9 @@
     "compilerOptions": {
         "target": "es3",
         "module": "none",
-        "noLib": true,
         "typeRoots": [
             "./node_modules/@types",
-            "./node_modules/types-for-adobe"
-        ],
-        "outDir": "build"
+            "./node_modules/types-for-adobe/*"
+        ]
     }
 }
