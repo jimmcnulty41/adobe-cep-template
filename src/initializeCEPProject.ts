@@ -35,7 +35,7 @@ const writeManifest = result => {
 };
 
 const copyStaticFiles = result => {
-    const filesToCopy = glob.sync("Template/**/*");
+    const filesToCopy = glob.sync("Template/**/*", { dot: true });
     filesToCopy.forEach(srcName => {
         const destinationName = getDestinationName(srcName, result.dirName);
         if (fs.existsSync(destinationName)) return;
