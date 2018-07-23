@@ -6,7 +6,8 @@
     "scripts": {
         "build": "tsc",
         "deploy": "node ./deploy.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build-and-deploy": "npm run build && npm run deploy",
+        "debug": "node ./set_debug.js"
     },
     "keywords": [
         "adobe",
@@ -18,5 +19,8 @@
         "fs-extra": "^6.0.1",
         "types-for-adobe": "0.0.1",
         "typescript": "^2.9.2"
+    },
+    "devDependencies": {
+        "@rgrove/parse-xml": "^1.1.1"
     }
 }
